@@ -1,0 +1,83 @@
+body{
+margin: 0;
+}
+
+h1{
+  font-size: 400%;
+}
+.sectioncontacto
+{
+position: absolute;
+top:15%;
+border:white; 
+width: 100%;
+height: 70%;
+text-align:center
+
+}
+b{
+  font-size:200%;
+}
+.salida
+{
+  position: absolute;
+  top: 10%;
+ width:10%;
+ height:35%;
+ }
+.header{
+  background-color:  #A12024;
+  width: 100%;
+  height: 15%;
+  position:fixed; 
+  text-align:center;
+  font-size: 200% ;   
+}
+
+.sectioninicio{
+position: absolute;
+top:15%;
+left: 5%;
+background: url('Cuervo.png');
+background-repeat: no-repeat;
+background-position: center;
+border:white; 
+width: 85%;
+height: 45%;
+
+}
+.inicio{
+top:15%;
+left: 5%;
+background-color: white;
+border:black 5px; 
+width: 85%;
+height: 45%;
+
+}
+.sectioniniciotexto{
+position: absolute;
+top:60%;
+align-content: center;
+border:white; 
+text-align:center;
+width: 100%;
+font-size: 80%;
+}
+
+.footer{
+  background-color:  #A12024;
+  bottom:0;
+  width: 100%;
+  height: 15%;
+  
+  position:fixed; 
+}
+
+.inicio{
+ padding-top: 1%;
+}
+
+/* Cierra agenda*/
+
+

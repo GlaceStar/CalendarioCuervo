@@ -1,0 +1,52 @@
+/*instrucciones generales*/
+* { margin: auto;  }
+/*cabecera de la página*/
+h1 { text-align: center; padding: 0.5em; }
+#eventos{
+	max-width:100% ;height: 100%;
+	border-spacing: 30px;
+	background-color:#A12024;
+	font: normal 32pt arial;
+}
+#top{
+	background-color: #000000;
+	color: white;
+	font: normal 32pt arial;
+
+}
+#contacto{
+	width: 100%;
+	text-align: right;
+	background-color: #A12024;
+}
+#contlink{
+	font: bold 28pt arial;
+	color: #000000;
+}
+/*div principal del calendario*/
+#calendario { max-width:100% ; height: 100%;
+              background-color:#A12024; text-align: center; }
+/*tabla del calendario*/
+#diasc { border: 1px solid black; border-collapse: 
+         separate; border-spacing: 12px; }
+#diasc th,#diasc td { font: normal 32pt arial; width: 10%; height: 14%; }
+#diasc th { color: #000000; background-color: #FF3D3D }
+#diasc td { color: #880000; background-color: #FF2B00 }
+/*línea de la fecha actual*/
+#fechaactual { font: bold 22pt arial; padding: 0.4em }
+#fechaactual i { cursor: pointer ; }
+#fechaactual i:hover { color: blue; text-decoration: underline; }
+/*formulario de busqueda de fechas*/
+#buscafecha { background-color: #000000; font: bold 20pt arial; color: #FF2B00; padding: 5px }
+#buscafecha select, #buscafecha input  { background-color: #FF2B00; 
+            color: #000000; font: bold 20pt arial;  }
+#buscafecha [type=text]  { text-align: center; }
+#buscafecha  [type=button] { cursor: pointer; }
+/*cabecera del calendario*/ 
+#anterior { float: left; width: 100px; font: bold 22pt arial;
+          padding: 1% 5%; cursor: pointer ; color: #FFFFFF;}
+#posterior { float: right; width: 100px; font: bold 22pt arial; 
+          padding: 1% 5%; cursor: pointer ; color:#FFFFFF;}
+#anterior:hover {color: blue;text-decoration: underline;}
+#posterior:hover {color: blue; text-decoration: underline;}
+#titulos { font: normal 36pt "arial black"; color: #FFFFFF; padding: 0.2em; }
